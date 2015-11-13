@@ -1,1 +1,1 @@
-DROP TABLE chars, dates, floats, integers;
+﻿DROP TABLE bools, chars, dates, floats, integers, arrays;
