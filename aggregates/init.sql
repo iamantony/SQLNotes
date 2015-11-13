@@ -1,4 +1,5 @@
-﻿CREATE TABLE customer(
+﻿CREATE TABLE customer
+(
   customer_id SERIAL PRIMARY KEY,
   title CHAR(4),
   fname VARCHAR(32),
@@ -7,7 +8,13 @@
   town VARCHAR(32),
   zipcode CHAR(10) NOT NULL,
   phone VARCHAR(16)
-);﻿
+);
+
+CREATE TABLE numbers
+(
+  ints INTEGER,
+  floats REAL
+);
 
 INSERT INTO customer(title, fname, lname, addressline, town, zipcode, phone) VALUES('Miss','Jenny','Stones','27 Rowan Avenue','Hightown','NT2 1AQ','023 9876');
 INSERT INTO customer(title, fname, lname, addressline, town, zipcode, phone) VALUES('Mr','Andrew','Stones','52 The Willows','Lowtown','LT5 7RA','876 3527');
@@ -25,3 +32,6 @@ INSERT INTO customer(title, fname, lname, addressline, town, zipcode, phone) VAL
 INSERT INTO customer(title, fname, lname, addressline, town, zipcode, phone) VALUES('Mr','Bill','ONeill','2 Beamer Street','Welltown','WT3 8GM','435 1234');
 INSERT INTO customer(title, fname, lname, addressline, town, zipcode, phone) VALUES('Mr','David','Hudson','4 The Square','Milltown','MT2 6RT','961 4526');
 INSERT INTO customer(title, fname, lname, addressline, town, zipcode) VALUES('Mr','John','Stones','27 Rowan Avenue','Hightown','NT2 1AQ');
+
+INSERT INTO numbers(ints, floats) VALUES(12, 1.4578);
+INSERT INTO numbers(ints, floats) VALUES(-1, 45343.439);

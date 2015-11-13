@@ -27,3 +27,10 @@ SELECT sum(customer_id) FROM customer;
 
 -- avg()
 SELECT avg(customer_id) FROM customer;
+
+-- abs()
+SELECT abs(ints) FROM numbers;
+
+-- round()
+SELECT round(floats) FROM numbers;
+SELECT round(78.09878978, 2);
