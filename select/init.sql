@@ -23,8 +23,8 @@ CREATE TABLE orderinfo
 (
   orderinfo_id SERIAL,
   customer_id INTEGER NOT NULL,
-  DATE_placed DATE NOT NULL,
-  DATE_shipped DATE,
+  date_placed DATE NOT NULL,
+  date_shipped DATE,
   shipping NUMERIC(7,2),
   CONSTRAINT orderinfo_pk PRIMARY KEY(orderinfo_id)
 );
