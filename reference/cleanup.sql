@@ -1,1 +1,1 @@
-﻿DROP TABLE customer, item, orderinfo, stock;
+﻿DROP TABLE stock, orderinfo, item, customer;
