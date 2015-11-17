@@ -1,1 +1,1 @@
-DROP TABLE movie;
+﻿DROP TABLE movie, constr;
