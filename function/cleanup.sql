@@ -2,3 +2,9 @@
 DROP FUNCTION add_two(INTEGER);
 DROP FUNCTION add_three(INTEGER);
 DROP FUNCTION add_three(REAL);
+DROP FUNCTION calc_sum(INTEGER, INTEGER);
+DROP FUNCTION get_zip(TEXT);
+DROP FUNCTION int_to_str(INTEGER);
+DROP FUNCTION counting();
+
+DROP TABLE customer, item, orderinfo, stock;
